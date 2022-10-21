@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+
+        android:layout_marginTop="27dp"
+
+
+        android:background="@drawable/round_btn"
+
+        android:onClick="playMusic"
+        android:text="Play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="89dp"
+
+
+
+
+
+        />
+
+    <Button
+
+
+
+
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="26dp"
+
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/round_btnpause"
+        android:onClick="pauseMusic"
+        android:text="Pause"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="196dp"
+        tools:text="Pause" />
+
+    <Switch
+        android:id="@+id/switch_looping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+
+        android:text="looping"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="253dp"
+        app:srcCompat="@drawable/img" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+
+        android:color="@color/teal_200"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="537dp"
+        android:numStars="3"
+        android:stepSize="1" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="615dp"
+        android:onClick="enter"
+        android:text="Send"
+
+        android:color="@color/teal_200"
+
+        />
+
+
+</RelativeLayout>
