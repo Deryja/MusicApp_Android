@@ -1,5 +1,6 @@
 # Music/FunApp
-This project is made with the Java programming language
+This project is made with the Java programming language.
+It was made as an assignment for a certified project centered course on Courseera about Android app development. 
 
 This is a music/fun app made with media player which plays the famous "Hadal Ahbek" arabic song. 
 The user can also rate it with stars, and then be taken to a second activity with a message of how many stars he rated the song. 
